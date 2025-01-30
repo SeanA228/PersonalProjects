@@ -15,7 +15,7 @@ maxAttempts = 5
 # Compare guess to random    
 while attempts<maxAttempts:
     
-    guess = float(input())
+    guess = int(input())
     
     if guess == random_int:
         print('You guessed the right number! Good job')
